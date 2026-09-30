@@ -1,0 +1,38 @@
+{
+    "dataset_name": "Medical Appointment No-Show",
+    "target": "no_show",
+    "train_shape": [
+        88411,
+        94
+    ],
+    "test_shape": [
+        22103,
+        94
+    ],
+    "numerical_features": [
+        "gender",
+        "age",
+        "scholarship",
+        "hipertension",
+        "diabetes",
+        "alcoholism",
+        "handcap",
+        "sms_received",
+        "appointment_year",
+        "appointment_month",
+        "appointment_day",
+        "appointment_dayofweek",
+        "waiting_days"
+    ],
+    "categorical_features": [
+        "neighbourhood"
+    ],
+    "no_show_rate_train": 0.2019,
+    "no_show_rate_test": 0.2019,
+    "sha256": {
+        "X_train_final": "612e6d1b5865b96a5aacee49f562818d0a461dced791094eea1f4a1ffe33fa11",
+        "X_test_final": "9388d5f5e6119588bd2c1f9d5a0afe1a60e5406c4ac6aab13e1700ac17f563a9",
+        "y_train": "837887f49df948673bbc3d5ecb47f51559ed2e1a373fa88f2ec5c8aa705282e3",
+        "y_test": "fb6434aad1796237ecddd80bfa7389b51edc29e0822857740c5724309bbf7951"
+    }
+}
